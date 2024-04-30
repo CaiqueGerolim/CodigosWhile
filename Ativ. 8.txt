@@ -1,0 +1,7 @@
+Ativ. 8
+
+senha = 1234
+x = int(input("Qual a senha? "))
+while x != senha:
+    x = int(input("Senha incorreta, tente novamente "))
+    print("Senha correta")

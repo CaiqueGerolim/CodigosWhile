@@ -1,0 +1,7 @@
+Ativ. 5
+
+x = int(input("Digite um numero inteiro: "))
+contador = 0
+while contador < x:
+    contador += 1
+    print(contador)
