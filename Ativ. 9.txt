@@ -1,0 +1,9 @@
+l = int(input("Sua lista tera quantos numeros?: "))
+soma = 0
+contador = 0
+while contador < l:
+ lista = int(input(f"Digite o {contador+1} numero: "))
+ contador +=1
+ soma += lista
+ media = soma/l
+print(f"A soma dos numeros: {soma} \n média dos numeros: {media}")

@@ -1,0 +1,6 @@
+soma = 0
+x = int(input("Escolha o numero: "))
+while x != 0:
+    soma += x
+    x = int(input("Escolha outro numero: "))
+print("A soma é", soma)

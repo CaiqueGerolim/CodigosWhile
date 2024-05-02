@@ -1,0 +1,4 @@
+x = int(input("Escolha um numero de 0 a 10 "))
+while x > 10 or x < 0:
+    x = int(input("Escolha um numero de 0 a 10 "))
+print("Obrigado por opinar :)")
