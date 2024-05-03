@@ -1,0 +1,16 @@
+n = input("Qual seu nome? ")
+i = int(input("Qual sua idade? "))
+sa = int and float(input("Qual seu salário? "))
+se = input("Qual seu sexo? ")
+ec = input("Qual seu Estado Civil? ")
+while len(n) < 3:
+    n = input("Qual seu nome? (Muito pouco caractere) ")
+while i > 150 or i < 0:
+    i = input("Qual sua idade? (Idade inválida) ")
+while sa < 0:
+    sa = input("Qual seu salário? (Quantia inválida) ")
+while se != 'm' and se != 'f':
+    se = input("Qual seu sexo? (Sexo inválido) ")
+while ec != 's' and ec != 'c' and ec != 'v' and ec != 'd':
+    ec = input("Qual seu Estado Civil? (Alternativa inválida) ")
+print("Obrigado por de cadastrar =)")
