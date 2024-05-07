@@ -1,0 +1,38 @@
+luizinho_do_povo = 0
+caiquin_de_voces = 0
+kaue_patriota = 0
+guilherme_lava_jato = 0
+nulo = 0
+branco = 0
+totalvoto = 0
+
+print("\n luizinho = 1 \n caiquin = 2 \n kaue = 3 \n guilherme = 4 \n nulo = 5 \n branco = 6")
+while True:
+  voto = int(input("Digite seu voto: (Se ja votou digite 0) "))
+  totalvoto +=1
+  if voto == 1:
+    luizinho_do_povo +=1
+  elif voto == 2:
+   caiquin_de_voces +=1
+  elif voto == 3:
+    kaue_patriota +=1
+  elif voto == 4:
+    guilherme_lava_jato +=1
+  elif voto == 5:
+    nulo +=1
+  elif voto == 6:
+    branco +=1
+  elif voto == 0:
+   break
+  else:
+    print("Valor inválido")
+totalvoto -=1
+print("Luizinho Do Povo", luizinho_do_povo)
+print("Caiquin De Voces", caiquin_de_voces)
+print("Kaue Patriota", kaue_patriota)
+print("Guilherme Lava Jato:", guilherme_lava_jato)
+print("Nulo", nulo)
+print("Branco:", branco)
+print(f"Total de votos: {totalvoto}")
+print(f"Porcentagem de voto nulo sobre o total de votos é {nulo/totalvoto * 100:.2f}%")
+print(f"porcentagem de voto em branco sobre o total de votos é {branco/totalvoto * 100:.2f}%")
