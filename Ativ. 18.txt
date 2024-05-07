@@ -1,9 +1,0 @@
-m = 1
-n = int(input("Escolha um número: "))
-fatorial = 1
-
-while m <= n:
-    fatorial *= m
-    m += 1
-
-print(f"O fatorial de {n} é {fatorial}")

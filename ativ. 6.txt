@@ -1,7 +1,0 @@
-ativ. 6
-
-x = int(input("Digite um numero inteiro: "))
-contador = 2
-while contador < x:
-    contador += 2
-    print(contador)

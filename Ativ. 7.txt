@@ -1,8 +1,0 @@
-Ativ. 7
-
-x = int(input("Digite um numero inteiro: "))
-contador = 0
-resultado = x * contador
-while contador < 10:
- contador +=1
- print(f"{x} x {contador} = {resultado}")

@@ -1,7 +1,0 @@
-n = int and str(input("Escolha um nome de usuario "))
-s = int and str(input("Escolha uma senha "))
-while n == s or s == n:
-    n = int and str(input("Nome de usuario ou senha são iguais "))
-    s = int and str(input("Nome de usuario ou senha são iguais "))
-if n != s and s != n:
-    print("Conta criada com sucesso!!")
